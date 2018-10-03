@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>pers.adi.house.servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>Mistake</servlet-name>
+        <servlet-class>pers.adi.house.servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Mistake</servlet-name>
+        <url-pattern>/Mistake</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>ShowHouseInfoServlet</servlet-name>
+        <servlet-class>pers.adi.house.servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShowHouseInfoServlet</servlet-name>
+        <url-pattern>/ShowHouseInfoServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>DeleteHouseInfoServlet</servlet-name>
+        <servlet-class>pers.adi.house.servlet.DeleteHouseInfoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteHouseInfoServlet</servlet-name>
+        <url-pattern>/DeleteHouseInfoServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>UpdateHouseInfoServlet</servlet-name>
+        <servlet-class>pers.adi.house.servlet.UpdateHouseInfoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateHouseInfoServlet</servlet-name>
+        <url-pattern>/UpdateHouseInfoServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>ShowByIdServlet</servlet-name>
+        <servlet-class>pers.adi.house.servlet.ShowByIdServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShowByIdServlet</servlet-name>
+        <url-pattern>/ShowByIdServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>AddHouseInfoServlet</servlet-name>
+        <servlet-class>pers.adi.house.servlet.AddHouseInfoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddHouseInfoServlet</servlet-name>
+        <url-pattern>/AddHouseInfoServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
